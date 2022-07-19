@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "GFG Launcher",
+    "description": "Quick Launch GFG Media",
+    "version": "1.0.0",
+    "icons": {"128": "gfglogo120x120.png"},
+    "browser_action": {
+        "default_icon": "gfglogo19x19.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
